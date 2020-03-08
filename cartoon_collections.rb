@@ -31,7 +31,6 @@ def find_the_cheese(snacks)
     if snacks.include?(ele)
       return ele
     else
-      return nil
     end
   end
 end
