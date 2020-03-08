@@ -14,6 +14,7 @@ end
 
 def long_planeteer_calls(short_words)
   puts short_words
+  eleArray = []
   short_words.each do |ele|
     eleArray = ele.split("")
     puts eleArray
