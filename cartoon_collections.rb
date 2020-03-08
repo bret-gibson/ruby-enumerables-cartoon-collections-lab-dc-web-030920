@@ -19,9 +19,7 @@ def long_planeteer_calls(short_words)
     eleArray = ele.split("")
     puts eleArray
     if eleArray.length > 4
-      return true
     else
-      return false
     end
   end
 end
