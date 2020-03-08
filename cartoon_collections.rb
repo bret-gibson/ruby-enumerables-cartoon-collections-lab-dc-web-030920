@@ -33,7 +33,7 @@ def find_the_cheese(snacks)
     else
       cheese = nil
     end
-    puts cheese
+    return cheese
   end
   return cheese
 end
