@@ -16,7 +16,7 @@ def long_planeteer_calls(short_words)
   puts short_words
   short_words.each do |ele|
     eleArray = ele.split("")
-    binding.pry
+    puts eleArray
     if eleArray.length > 5
       return true
     else
