@@ -10,6 +10,7 @@ def summon_captain_planet(planeteer_calls)
     ele.capitalize
     ele + "!"
   end
+  puts newArr
 end
 
 def long_planeteer_calls# code an argument here
