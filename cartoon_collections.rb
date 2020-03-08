@@ -6,9 +6,10 @@ end
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map do |ele|
+  newArr = planeteer_calls.map do |ele|
     ele.capitalize
   end
+  newArr.push("!")
 end
 
 def long_planeteer_calls# code an argument here
