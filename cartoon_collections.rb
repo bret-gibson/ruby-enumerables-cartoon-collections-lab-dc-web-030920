@@ -14,14 +14,16 @@ end
 
 def long_planeteer_calls(short_words)
   puts short_words
+  long = false
   eleArray = []
   short_words.each do |ele|
     eleArray = ele.split("")
     puts eleArray
     if eleArray.length > 4
-    else
+      long = true
     end
   end
+  return long
 end
 
 def find_the_cheese# code an argument here
