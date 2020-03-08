@@ -30,10 +30,10 @@ def find_the_cheese(snacks)
   if snacks.include?(cheese_types[0])
     return cheese_types[0]
   end
-  if snacks.include?(cheese_type[1])
+  if snacks.include?(cheese_types[1])
     return cheese_types[1]
   end
-  if snacks.include?(cheese_type[2])
+  if snacks.include?(cheese_types[2])
     return cheese_types[2]
   end
 end
