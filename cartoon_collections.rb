@@ -32,6 +32,7 @@ def find_the_cheese(snacks)
       return ele
     else
       cheese = nil
+      return cheese
     end
   end
 end
