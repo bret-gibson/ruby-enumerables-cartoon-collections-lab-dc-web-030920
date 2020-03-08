@@ -14,8 +14,12 @@ end
 
 def long_planeteer_calls(short_words)
   short_words.each do |ele|
-
-    
+    eleArray = ele.split("")
+    if eleArray.length > 4
+      return true
+    else
+      return false
+    end
   end
 end
 
