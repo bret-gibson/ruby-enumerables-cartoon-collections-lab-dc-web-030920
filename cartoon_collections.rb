@@ -35,5 +35,4 @@ def find_the_cheese(snacks)
     end
     return cheese
   end
-  return cheese
 end
